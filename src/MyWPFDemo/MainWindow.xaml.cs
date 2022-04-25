@@ -21,7 +21,7 @@ namespace MyWPFDemo
     public partial class MainWindow : Window
     {
         private string _firstName;
-        private string _lastNamechangesdfdsf;
+        private string _lastNamechange;
         public string FirstName
         {
             get
@@ -37,11 +37,11 @@ namespace MyWPFDemo
         {
             get
             {
-                return _lastNamechangesdfdsf;
+                return _lastNamechange;
             }
             set
             {
-                _lastNamechangesdfdsf = value;
+                _lastNamechange = value;
             }
         }
 
@@ -49,7 +49,7 @@ namespace MyWPFDemo
         {
             get
             {
-                return _firstName + " " + _lastName;
+                return _firstName + " " + _lastNamechange;
             }
         }
         public MainWindow()
