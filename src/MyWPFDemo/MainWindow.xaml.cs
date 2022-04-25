@@ -21,7 +21,9 @@ namespace MyWPFDemo
     public partial class MainWindow : Window
     {
         private string _firstName;
+
         private string _lastNamechange;
+
         public string FirstName
         {
             get
@@ -37,6 +39,7 @@ namespace MyWPFDemo
         {
             get
             {
+
                 return _lastNamechange;
             }
             set
