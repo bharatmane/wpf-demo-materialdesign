@@ -55,6 +55,18 @@ namespace MyWPFDemo
                 return _firstName + " " + _lastNamechange;
             }
         }
+        
+         public string NewFirstName
+        {
+            get
+            {
+                return _firstName;
+            }
+            set
+            {
+                _firstName = value;
+            }
+        }
         public MainWindow()
         {
             this.DataContext = this;
