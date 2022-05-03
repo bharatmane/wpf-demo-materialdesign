@@ -56,7 +56,7 @@ namespace MyWPFDemo
             }
         }
         
-         public string NewFirstName
+         public string FullName
         {
             get
             {
